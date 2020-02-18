@@ -1,0 +1,51 @@
+disabled_rules: # rule identifiers to exclude from running
+  - trailing_whitespace
+  - force_try
+  - large_tuple
+  - type_body_length
+  - function_body_length
+  - nesting
+opt_in_rules: # some rules are only opt-in
+  - empty_count
+  - array_init
+  - closure_end_indentation
+  - closure_spacing
+  - contains_over_first_not_nil
+  - file_header
+  - force_unwrapping
+  - let_var_whitespace
+  - multiline_arguments
+  - multiline_parameters
+  - vertical_parameter_alignment_on_call
+  - no_extension_access_modifier
+  # Find all the available rules by running:
+  # swiftlint rules
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+
+
+# configurable rules can be customized from this configuration file
+# binary rules can set their severity level
+# rules that have both warning and error levels, can set just the warning level
+# implicitly
+cyclomatic_complexity:
+  warning: 12
+line_length: 120
+
+file_length:
+  warning: 600
+  error: 1200
+# naming rules can set warnings/errors for min_length and max_length
+# additionally they can set excluded names
+type_name:
+  min_length: 2 # only warning
+  max_length: # warning and error
+    warning: 50
+    error: 60
+  excluded: iPhone # excluded via string
+identifier_name:
+  min_length: 2
+  max_length: # warning and error
+    warning: 50
+    error: 60
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle)

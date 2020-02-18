@@ -1,0 +1,6 @@
+framework module Pods_PReportTests {
+  umbrella header "Pods-PReportTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

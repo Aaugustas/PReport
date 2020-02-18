@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>266391887931-mf4rcn7t99jlb73is8achtkg8o5t70iu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.266391887931-mf4rcn7t99jlb73is8achtkg8o5t70iu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDqpjnVoTumPqRhM5s1Uldm8s9VPKzIYEA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>266391887931</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.PoliceApp.PReport</string>
+	<key>PROJECT_ID</key>
+	<string>preport-761c8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>preport-761c8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:266391887931:ios:e1567a2b37ce01bb99bc1e</string>
+	<key>DATABASE_URL</key>
+	<string>https://preport-761c8.firebaseio.com/</string>
+</dict>
+</plist>
