@@ -8,7 +8,7 @@ struct Constants {
         static let loginViewController = "LoginVC"
         static let reportCellIndentifier = "SomeReportCell"
         static let reportNib = "ReportsCell"
-        static let flowViewController = "FlowVC"
+        static let flowViewController = "flowVC"
     }
     struct Firebase {
         static let reportField = "report"

@@ -54,9 +54,9 @@ class ReportViewController: UIViewController {
                 }
             }
             
-            let flowVC = storyboard?.instantiateViewController(identifier: "flowVC") as? FlowViewController
+            let flowVC = storyboard?.instantiateViewController(identifier: Constants.StoryBoard.flowViewController) as? FlowViewController
             
-            try! navigationController?.pushViewController(flowVC!, animated: true)
+            navigationController?.pushViewController(flowVC!, animated: true)
             
         }
     }
